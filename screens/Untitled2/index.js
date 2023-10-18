@@ -24,7 +24,7 @@ const Untitled2 = ({
       width: 20
     }} thumbTintColor="#0000FF" maximumValue={1} minimumValue={0}></Slider><FlatList style={styles.nVIitlpi} renderItem={({
       item
-    }) => <View style={styles.sZHMYkXi}></View>} ItemSeparatorComponent={() => <View style={styles.AooSCjSS} />} data={[1, 2, 3]} keyExtractor={(item, index) => index}></FlatList></SafeAreaView>;
+    }) => <View style={styles.sZHMYkXi}></View>} ItemSeparatorComponent={() => <View style={styles.AooSCjSS} />} data={[1, 2, 3]} keyExtractor={(item, index) => index}></FlatList><View style={styles.MFwKKyaq}></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -59,6 +59,13 @@ const styles = StyleSheet.create({
   AooSCjSS: {
     backgroundColor: "#000000",
     height: 1
+  },
+  MFwKKyaq: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled2;
